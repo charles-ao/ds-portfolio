@@ -1,9 +1,21 @@
+import React from "react";
 import './App.css';
+import Navbar from './Components/Navbar/Navbar';
+import { useGlobalContext } from "./Context";
+import About from "./Sections/About/About";
+import Herohead from './Sections/Herohead/Herohead';
+import Portfolio from "./Sections/Portfolio/Portfolio";
 
-function App() {
+const  App = ()  => {
+ const {navStatus} = useGlobalContext()
+
+  
   return (
     <div>
-     <h1>Welcome to my Portfolio</h1>
+      <Navbar showNav={navStatus}/>
+      <Herohead />
+      <About/>
+      <Portfolio />
     </div>
   );
 }
