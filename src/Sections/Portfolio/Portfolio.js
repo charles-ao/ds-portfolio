@@ -1,7 +1,7 @@
 import React from "react";
 import { useGlobalContext } from "../../Context";
 const Portfolio = () => {
-    const {data, showFrontendProjects, showAllProjects, showDataProjects} = useGlobalContext()
+    const {data, showFrontendProjects, showAllProjects, showDataProjects, expandData, collapseData,expansion} = useGlobalContext()
     
 
 
@@ -53,6 +53,7 @@ const Portfolio = () => {
                     }
                     
                 </div>
+                <div className="trimmer" onClick={expansion? collapseData : expandData}><span>{expansion? "Collapse":"Show More"}</span></div>
             </div> 
         </div>
       </div>

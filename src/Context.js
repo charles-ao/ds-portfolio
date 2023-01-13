@@ -6,6 +6,7 @@ const AppProvider = ({ children }) => {
   const [navStatus, setNavStatus] = useState(false);
   const[scrollPosition, setScrollPosition] = useState(0)
   const [data, setData] = useState([])
+  const [expansion, setExpansion] = useState(false)
 
 
   
@@ -15,7 +16,7 @@ const AppProvider = ({ children }) => {
   }
 
   useEffect(() => {
-    setData(portfolioData)
+    setData(portfolioData.slice(0,6))
   }, [])
  
   const showAllProjects = (e) => {
@@ -23,7 +24,7 @@ const AppProvider = ({ children }) => {
     tabs.forEach(tab =>{
       tab.classList.remove('active');
     })
-    setData(portfolioData)
+    setData(portfolioData.slice(0,6))
     e.currentTarget.classList.add('active');
     
   }
@@ -34,9 +35,9 @@ const AppProvider = ({ children }) => {
       tab.classList.remove('active');
     })
     const frontend = portfolioData.filter(project => project.category === "frontend")
-    setData(frontend);
+    setData(frontend.slice(0,6));
     e.currentTarget.classList.add('active');
-    
+
   }
 
   const showDataProjects = (e) => {
@@ -44,12 +45,59 @@ const AppProvider = ({ children }) => {
     tabs.forEach(tab =>{
       tab.classList.remove('active');
     })
-    const data= portfolioData.filter(project => project.category === "data")
-    setData(data);
+    const data_p= portfolioData.filter(project => project.category === "data")
+    setData(data_p.slice(0,6));
     e.currentTarget.classList.add('active');
-    
+
   }
 
+   
+  const expandData = () => {
+    const filt = document.querySelector('.portfolio-filter').children;
+    
+    for (let j = 0; j < filt.length; j++){
+
+      if (filt[j].classList.value === "portfolio-filter-item active") {
+        if ( j === 0) {
+          setData(portfolioData)
+        }
+        if ( j === 1) {
+          const data_p= portfolioData.filter(project => project.category === "data")
+          setData(data_p);
+        }
+        if ( j === 2) {
+          const frontend = portfolioData.filter(project => project.category === "frontend")
+          setData(frontend);
+        }
+      }
+    }
+
+    setExpansion(true)
+  }
+
+  const collapseData = () => {
+    const filt = document.querySelector('.portfolio-filter').children;
+    
+    for (let j = 0; j < filt.length; j++){
+
+      if (filt[j].classList.value === "portfolio-filter-item active") {
+        if ( j === 0) {
+          setData(portfolioData.slice(0,6))
+        }
+        if ( j === 1) {
+          const data_p= portfolioData.filter(project => project.category === "data")
+          setData(data_p.slice(0,6));
+        }
+        if ( j === 2) {
+          const frontend = portfolioData.filter(project => project.category === "frontend")
+          setData(frontend.slice(0,6));
+        }
+      }
+    }
+
+    setExpansion(false)
+  }
+  
   
 
   useEffect(() => {
@@ -80,7 +128,10 @@ const AppProvider = ({ children }) => {
         data,
         showFrontendProjects,
         showAllProjects,
-        showDataProjects
+        showDataProjects,
+        expandData,
+        collapseData,
+        expansion
 
       }}
     >

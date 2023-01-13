@@ -36,15 +36,15 @@ html {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #00020B;
+    background-color: inherit;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #010a31;
+    background: #1E1E1E;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #000829;
+    background: #1E1E1E;
  
 }
 
@@ -352,7 +352,7 @@ h4{
 
 }
 
-.portfolio-head-quote h5 {
+.portfolio-head-quote h5, .contact-quote h5 {
     font-size: 12px;
     margin-bottom: 16px;
     font-family: var(--ff-tertiary);
@@ -535,6 +535,124 @@ h4{
 }
 
 
+
+/* Contact */
+.contact {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    color: #1e1e1e;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.contact-title h3{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 40px;
+}
+
+.contact-text {
+    margin: 16px 0;
+}
+
+.contact-social-media-icons {
+    width: 50%;
+    margin: 36px auto 12px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-social-media-icon {
+    padding: 4px 6px;
+    border: 0px solid red;
+    border-radius: 8px;
+    background-color: #1E1E1E;
+    color: #ECECEC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.contact-social-media-icon:hover {
+    color: #1E1E1E;
+    background-color: #ECECEC;
+}
+
+.contact-btn {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary, .trimmer {
+    appearance: none;
+    background-color: #1E1E1E;
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color:   #ececec;
+    cursor: pointer;
+    font-family: Clarkson,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0;
+    line-height: 1em;
+    margin: 16px 0;
+    opacity: 1;
+    padding: 16px 40px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+  
+}
+
+.btn-primary:before, .trimmer:before {
+    animation: opacityFallbackOut .5s step-end forwards;
+    backface-visibility: hidden;
+    background-color: #ECECEC;
+    clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: translateZ(0);
+    transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+    width: 100%;
+}
+
+.btn-primary:hover:before, .trimmer:hover:before {
+    animation: opacityFallbackIn 0s step-start forwards;
+    clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+}
+
+.btn-primary:hover, .trimmer:hover {
+    color: #1E1E1E;
+}
+
+.btn-primary:after, .trimmer:after {
+    background-color: #ECECEC;
+}
+
+.btn-primary span, .btn-primary:hover, .trimmer span, .trimmer:hover {
+    z-index: 1;
+    position: relative;
+}
+
+.trimmer {
+    width: 24%;
+    margin: 48px auto 24px auto;
+    font-size: 10px;
+    padding: 20px 8px;
+}
+
 @media screen and (min-width: 376px)  {
     /* Herohead  */
 
@@ -621,6 +739,38 @@ h4{
         margin: 12px auto;
     }
 
+    /* Contact */
+    .contact {
+        padding: 0 20%;
+    }
+
+    .contact-title h3 {
+        font-size: 48px;
+    }
+
+    .contact-social-media-icons {
+        width: 40%;
+    }
+    
+    .contact-social-media-icon:hover {
+        color: #1E1E1E;
+        background-color: #ECECEC;
+    }
+    
+    .contact-btn {
+        margin: 24px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-primary {
+        padding: 20 60px;
+    }
+    
+    
+    .trimmer {
+        width: 20%;
+    }
 }
 
 @media screen and (min-width: 800px)  {
@@ -712,6 +862,16 @@ h4{
         margin: 5% auto;
 
     }
+
+    /* Contact */
+    .contact {
+        padding: 0 30%
+    }
+
+    .trimmer {
+        width: 96px;
+        
+    }
 }
 
 @media screen and (min-width: 1440px)  {
@@ -726,3 +886,4 @@ h4{
         margin: 10% auto;
     }
 }
+
