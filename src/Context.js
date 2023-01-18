@@ -98,7 +98,10 @@ const AppProvider = ({ children }) => {
     setExpansion(false)
   }
   
-  
+  const scrollToSection = (e) => {
+    let id = e.currentTarget.attributes.name.value;
+    document.getElementById(id).scrollIntoView()
+  }
 
   useEffect(() => {
     window.addEventListener('scroll', handleScroll, {passive: true})
@@ -131,7 +134,8 @@ const AppProvider = ({ children }) => {
         showDataProjects,
         expandData,
         collapseData,
-        expansion
+        expansion,
+        scrollToSection
 
       }}
     >

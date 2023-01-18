@@ -5,7 +5,7 @@ import adedunmola from "../../assets/adedunmola.png"
 const Herohead = () => {
 
     return (
-        <div className="herohead">
+        <div className="herohead" id="herohead">
             <div className="herohead-content">
                 <div  className="herohead-content-center">
                     <div   className="herohead-content-center-rec">

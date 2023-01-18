@@ -23,7 +23,7 @@ import wordpress from "../../assets/stack/wordpress.svg";
 
 const About = () => {
   return (
-        <div className="about">
+        <div className="about" id="about">
             <div className="about-head">
                 <div className="about-head-name">
                     <h5>About</h5>

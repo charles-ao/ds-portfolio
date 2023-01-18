@@ -98,6 +98,7 @@ h4{
 .nav-header {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-header h4 {
@@ -187,9 +188,10 @@ h4{
 }
 
 .herohead-content-center  h2{
-    color: #ececec;
+    color: #1A1A1A;
     margin-bottom: 4px;
     font-size: 12px;
+    font-weight: 800;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
@@ -653,6 +655,19 @@ h4{
     padding: 20px 8px;
 }
 
+/* Footer */
+.footer {
+    color: #1e1e1e;
+    display: flex;
+    justify-content: space-around;
+    padding: 12px;
+    font-size: 8px;
+    border-top: 1px solid #1e1e1e;
+    /* position: fixed;
+    bottom: 0;
+    width: 100%; */
+}
+
 @media screen and (min-width: 376px)  {
     /* Herohead  */
 
@@ -771,6 +786,12 @@ h4{
     .trimmer {
         width: 20%;
     }
+
+    /* Footer */
+    .footer {
+        padding: 14px;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width: 800px)  {
@@ -871,6 +892,12 @@ h4{
     .trimmer {
         width: 96px;
         
+    }
+
+    /* Footer */
+    .footer {
+        padding: 20px;
+        font-size: 12px;
     }
 }
 

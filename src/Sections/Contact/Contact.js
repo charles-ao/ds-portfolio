@@ -6,7 +6,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 const Contact = () => {
 
     return (
-        <div className="contact">
+        <div className="contact" id="contact">
             <div className="contact-content">
                 <div className="contact-quote">
                     <h5>“Torture the data, and it will confess to anything.”</h5>
@@ -21,17 +21,17 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className="contact-social-media-icons">
-                    <div className="contact-social-media-icon">
+                    <div className="contact-social-media-icon" onClick={() => window.open('https://github.com/charles-ao', '_blank')} >
                         <FontAwesomeIcon icon={faGithub} size="2x" />
                     </div>
-                    <div className="contact-social-media-icon">
+                    <div className="contact-social-media-icon" onClick={() => window.open('https://www.linkedin.com/in/adedunmola-adeiye/', '_blank')}>
                         <FontAwesomeIcon icon={faLinkedinIn} size="2x"/>
                     </div>
-                    <div className="contact-social-media-icon">
+                    <div className="contact-social-media-icon" onClick={() => window.open('https://twitter.com/charles__ao', '_blank')}>
                         <FontAwesomeIcon icon={faTwitter}  size="2x"/>
                     </div>
                 </div>
-                <div className="contact-btn">
+                <div className="contact-btn" onClick={() => window.location = 'mailto:adeiyecharles@hotmail.com'}>
                     <div className="btn-primary" id="spc-btn"><span><FontAwesomeIcon icon={faEnvelope}/></span></div>
                 </div>
             </div>
