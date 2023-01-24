@@ -43,8 +43,12 @@ const Portfolio = () => {
                                             </p>
                                         </div>
                                         <div className="overlay-content-bottom">
-                                            <div className="btn"><span>View</span></div>
-                                            <div className="btn"><span>Code</span></div>
+                                            <a href={project.website} target="_blank" rel="noreferrer">
+                                                <div className="btn"><span>View</span></div>
+                                            </a>
+                                            <a href={project.github} target="_blank" rel="noreferrer" >
+                                                <div className="btn"><span>Code</span></div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

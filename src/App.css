@@ -468,7 +468,7 @@ h4{
 
 
 .overlay-content-bottom {
-    display: flex;
+    display: grid;
     grid-template-columns: 40% 40%;
     grid-column-gap: 20%;
 }
@@ -510,7 +510,7 @@ h4{
 .btn:before {
     animation: opacityFallbackOut .5s step-end forwards;
     backface-visibility: hidden;
-    background-color: #151A2E;
+    background-color: #ECECEC;
     clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
     content: "";
     height: 100%;
@@ -522,14 +522,19 @@ h4{
     width: 100%;
 }
 
+.btn:hover {
+    /* background-color: #ECECEC; */
+    color: #1e1e1e;
+}
+
 .btn:hover:before {
     animation: opacityFallbackIn 0s step-start forwards;
     clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
 }
 
-.btn:after {
-    background-color: #151A2E;
-}
+/* .btn:after {
+    background-color: #ECECEC;
+} */
 
 .btn span {
     z-index: 1;
