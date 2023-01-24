@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ds-portfolio/static/css/main.bfe8ed4f.css",
+    "main.css": "/ds-portfolio/static/css/main.b64f0d7b.css",
     "main.js": "/ds-portfolio/static/js/main.fa287921.js",
     "static/js/787.a379c05d.chunk.js": "/ds-portfolio/static/js/787.a379c05d.chunk.js",
     "static/media/bkg.png": "/ds-portfolio/static/media/bkg.adbf5d836a5f6ef5b74d.png",
@@ -28,12 +28,12 @@
     "static/media/html-x.svg": "/ds-portfolio/static/media/html-x.a871dd0cdc824197a96ca4bb001c89ff.svg",
     "index.html": "/ds-portfolio/index.html",
     "static/media/tensorflow.svg": "/ds-portfolio/static/media/tensorflow.45f0fbdb7fa41bf9f309313babcd2c89.svg",
-    "main.bfe8ed4f.css.map": "/ds-portfolio/static/css/main.bfe8ed4f.css.map",
+    "main.b64f0d7b.css.map": "/ds-portfolio/static/css/main.b64f0d7b.css.map",
     "main.fa287921.js.map": "/ds-portfolio/static/js/main.fa287921.js.map",
     "787.a379c05d.chunk.js.map": "/ds-portfolio/static/js/787.a379c05d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfe8ed4f.css",
+    "static/css/main.b64f0d7b.css",
     "static/js/main.fa287921.js"
   ]
 }
