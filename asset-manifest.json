@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/ds-portfolio/static/css/main.b64f0d7b.css",
-    "main.js": "/ds-portfolio/static/js/main.fa287921.js",
+    "main.css": "/ds-portfolio/static/css/main.31b0e390.css",
+    "main.js": "/ds-portfolio/static/js/main.8968af13.js",
     "static/js/787.a379c05d.chunk.js": "/ds-portfolio/static/js/787.a379c05d.chunk.js",
     "static/media/bkg.png": "/ds-portfolio/static/media/bkg.adbf5d836a5f6ef5b74d.png",
+    "static/media/jock.png": "/ds-portfolio/static/media/jock.7609b4faec563fe96030.png",
+    "static/media/portfolio.png": "/ds-portfolio/static/media/portfolio.e922f32b4ef61f1247a3.png",
+    "static/media/microsoft.png": "/ds-portfolio/static/media/microsoft.af72874d958e680870ae.png",
+    "static/media/figo.png": "/ds-portfolio/static/media/figo.da2927e7b95ceb173df9.png",
+    "static/media/carbon.png": "/ds-portfolio/static/media/carbon.26f044f8670a334b40e3.png",
     "static/media/default.png": "/ds-portfolio/static/media/default.7bc559437c55b2857a63.png",
+    "static/media/d3.png": "/ds-portfolio/static/media/d3.032e025cbbeddadb303c.png",
+    "static/media/weather-app.png": "/ds-portfolio/static/media/weather-app.bd8c03a9ca0bfdebedaa.png",
     "static/media/adedunmola.png": "/ds-portfolio/static/media/adedunmola.112d7dc97810b2c52a97.png",
     "static/media/hadoop.svg": "/ds-portfolio/static/media/hadoop.f448af551f6dc6c64ce09a00d691dc1b.svg",
-    "static/media/AA.png": "/ds-portfolio/static/media/AA.deac682aa174f64af4c6.png",
+    "static/media/AA.png": "/ds-portfolio/static/media/AA.3e4022082355929fd12b.png",
     "static/media/anaconda.svg": "/ds-portfolio/static/media/anaconda.61bb42451af37100103f54ac2537c49a.svg",
     "static/media/sass.svg": "/ds-portfolio/static/media/sass.dece569ce5a6cb2a490b8b3eba0d1ef7.svg",
     "static/media/react.svg": "/ds-portfolio/static/media/react.096be3f8d990a21e8c71c4578712ab9c.svg",
@@ -23,17 +30,17 @@
     "static/media/js.svg": "/ds-portfolio/static/media/js.56601b86e2cfb5540455549a98092f2a.svg",
     "static/media/tableau.svg": "/ds-portfolio/static/media/tableau.36648bc7e3efcbeb045c308160debf69.svg",
     "static/media/powerbi.svg": "/ds-portfolio/static/media/powerbi.dc640e184bac5552681ff8258c55fd6d.svg",
+    "index.html": "/ds-portfolio/index.html",
     "static/media/figma.svg": "/ds-portfolio/static/media/figma.a67a58ec1e0f0d561e25b648a075c8f6.svg",
     "static/media/git.svg": "/ds-portfolio/static/media/git.efcba3a5e97fcc29f665871415b06cf0.svg",
     "static/media/html-x.svg": "/ds-portfolio/static/media/html-x.a871dd0cdc824197a96ca4bb001c89ff.svg",
-    "index.html": "/ds-portfolio/index.html",
     "static/media/tensorflow.svg": "/ds-portfolio/static/media/tensorflow.45f0fbdb7fa41bf9f309313babcd2c89.svg",
-    "main.b64f0d7b.css.map": "/ds-portfolio/static/css/main.b64f0d7b.css.map",
-    "main.fa287921.js.map": "/ds-portfolio/static/js/main.fa287921.js.map",
+    "main.31b0e390.css.map": "/ds-portfolio/static/css/main.31b0e390.css.map",
+    "main.8968af13.js.map": "/ds-portfolio/static/js/main.8968af13.js.map",
     "787.a379c05d.chunk.js.map": "/ds-portfolio/static/js/787.a379c05d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b64f0d7b.css",
-    "static/js/main.fa287921.js"
+    "static/css/main.31b0e390.css",
+    "static/js/main.8968af13.js"
   ]
 }
