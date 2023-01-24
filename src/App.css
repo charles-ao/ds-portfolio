@@ -227,7 +227,7 @@ h4{
 }
 
 .about-head-quote h5 {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 16px;
     font-family: var(--ff-tertiary);
 }
@@ -355,7 +355,7 @@ h4{
 }
 
 .portfolio-head-quote h5, .contact-quote h5 {
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 16px;
     font-family: var(--ff-tertiary);
 }
@@ -413,7 +413,7 @@ h4{
     backdrop-filter: blur(2px);
     overflow: hidden;
     width: 100%;
-    height: 30%;
+    height: 100%;
     transition: .5s ease;
 } 
 
@@ -462,7 +462,7 @@ h4{
 }
 
 .overlay-content-middle p{
-    font-size: 12px;
+    font-size: 11px;
     text-align: justify;
 }
 
@@ -478,10 +478,10 @@ h4{
     height: 24px !important;
     width: 100%;
     appearance: none;
-    background-color: transparent;
+    background-color: #ececec;
     border-width: 0;
     box-sizing: border-box;
-    color:   #ececec;
+    color:   #1E1E1E;
     cursor: pointer;
     display: inline-block;
     font-family: Clarkson,Helvetica,sans-serif;
@@ -523,7 +523,6 @@ h4{
 }
 
 .btn:hover {
-    /* background-color: #ECECEC; */
     color: #1e1e1e;
 }
 
@@ -531,10 +530,6 @@ h4{
     animation: opacityFallbackIn 0s step-start forwards;
     clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
 }
-
-/* .btn:after {
-    background-color: #ECECEC;
-} */
 
 .btn span {
     z-index: 1;
@@ -876,6 +871,11 @@ h4{
     }   
 
     /* Portfolio */
+
+    .btn {
+        background-color: transparent;
+        color:   #ececec;
+    }
 
     .portfolio-body-content-section {
         display: grid;
