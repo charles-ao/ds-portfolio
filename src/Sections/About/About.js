@@ -185,7 +185,7 @@ const About = () => {
                         <div className="profile-skills-item">DATA SCIENCE</div>
                         <div className="profile-skills-item">FRONTEND DEVELOPMENT </div>
                     </div>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <p>A self-motivated Tech enthusiast with a strong commitment to collaborations and solutions-oriented problem-solving. I have a strong analytical background, which I continually leverage while working with data to extract hidden insights. My yearning for knowledge is huge, and I am keen on continuously improving my technical skills. I am constantly searching for opportunities to contribute positively to the goals of an organization using my analytical and problem-solving skills to improve and add value to the industry and my community at large.</p>
                 </div>
             </div>
             
