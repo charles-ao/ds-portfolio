@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Navigate, Route, Routes} from 'react-router-dom';
+import { BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.css';
 import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
@@ -15,10 +15,6 @@ const  App = ()  => {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route
-              path="*"
-              element={<Navigate to="/" replace />}
-          />
         </Routes>
       </BrowserRouter>
       <Footer/>
