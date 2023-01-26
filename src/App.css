@@ -589,7 +589,7 @@ h4{
 .btn-primary, .trimmer {
     appearance: none;
     background-color: #1E1E1E;
-    border: 0;
+    border: 1px solid #1E1E1E;
     border-radius: 8px;
     box-sizing: border-box;
     color:   #ececec;
@@ -637,6 +637,9 @@ h4{
 
 .btn-primary:hover, .trimmer:hover {
     color: #1E1E1E;
+    box-shadow: none;
+    border: 1px solid #1E1E1E;
+    border-radius: 0px;
 }
 
 .btn-primary:after, .trimmer:after {
