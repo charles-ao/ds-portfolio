@@ -78,6 +78,15 @@ h4{
     font-size: .25rem;
 }
 
+/* Under Construction */
+.construction {
+    height: 100vh;
+}
+.construction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* Navbar */
 
 .navbar {
