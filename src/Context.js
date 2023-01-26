@@ -9,7 +9,7 @@ const AppProvider = ({ children }) => {
   const [expansion, setExpansion] = useState(false)
 
 
-  
+
   const handleScroll = () => {
     const position = window.pageYOffset;
     setScrollPosition(position)
