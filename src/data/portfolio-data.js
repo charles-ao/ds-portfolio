@@ -45,7 +45,7 @@ const data = [
   },
   {
     id: 2,      
-    title: "Classifying Flower Images with ConvNet",
+    title: "Classifying Images of Flowers",
     category: 'data',
     tool: ['ConvNet',  'TensorFlow', 'Python'],
     detail: "Application of Convolutional Neural Networks to classify several flowers images taking into account Image Augmentation techniques using Tensorflow",
@@ -55,7 +55,7 @@ const data = [
   },
   {
     id: 2,      
-    title: "Sentiment Analysis on Tourists' Opinions",
+    title: "An Analysis on Tourists' Opinions",
     category: 'data',
     tool: ['NLTK',  'Vader', 'Python', 'Pandas', 'Word Cloud'],
     detail: "The implementation of sentiment analysis and text mining to study customer opinions and extract insights. The analysis is focused on all reviews collated from tourists who visited several Hotels and Restaurants in Choeng Thale, Thailand",
@@ -85,7 +85,7 @@ const data = [
   },
   {
     id: 250,      
-    title: 'Customer Segmentation with Clustering',
+    title: 'Customer Base Segmentation',
     category: 'data',
     tool: ['K-Means Clustering', 'Scikit Learn', 'Python'],
     detail: 'This analysis is an implementation of a centroid-based clustering method - K-means clustering algorithm - to segment a customer base based on their product purchase history and to analyse what each of these customer groups represent.',
