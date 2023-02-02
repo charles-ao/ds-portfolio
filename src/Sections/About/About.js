@@ -7,7 +7,7 @@ import css from "../../assets/stack/css-x.svg";
 import d3 from "../../assets/stack/d3.svg";
 import figma from "../../assets/stack/figma.svg";
 import git from "../../assets/stack/git.svg";
-import hadoop from "../../assets/stack/hadoop.svg";
+import spark from "../../assets/stack/spark.svg";
 import js from "../../assets/stack/js.svg";
 import powerbi from "../../assets/stack/powerbi.svg";
 import python from "../../assets/stack/python.svg";
@@ -151,9 +151,9 @@ const About = () => {
                         <div></div>
                         <div className="tech-stack-item">
                             <div className="tech-stack-cont">
-                                <img src={hadoop} alt='ico'/>
+                                <img src={spark} alt='ico'/>
                             </div>
-                            <span className="tech-name">Hadoop</span>
+                            <span className="tech-name">Spark</span>
                         </div>
                         <div></div>
                         <div className="tech-stack-item">
