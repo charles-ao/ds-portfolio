@@ -25,7 +25,7 @@ const data = [
   },
   {
     id: 17,      
-    title: 'Sustainable Electricity Generation Report',
+    title: 'Sustainable Electricity Generation',
     category: 'data',
     tool: ['Power BI'],
     detail: 'This report is an investigation into sustainable electric energy generation across eastern Europe between the years of 2010 and 2019. All the Analyses and visualisations carried out in this report were done on Power BI.',
