@@ -48,7 +48,7 @@ const data = [
     title: "Classifying Images of Flowers",
     category: 'data',
     tool: ['ConvNet',  'TensorFlow', 'Python'],
-    detail: "Application of Convolutional Neural Networks to classify several flowers images taking into account Image Augmentation techniques using Tensorflow",
+    detail: "Application of Convolutional Neural Networks (CNNs) to classify several flowers images taking into account Image Augmentation techniques using Tensorflow",
     img: flowers,
     website: 'https://medium.com/@charles-ao/classifying-images-of-flowers-using-convolutional-neural-networks-cnns-ce567b864604',
     github: 'https://github.com/charles-ao/flowers_cnn'
